@@ -58,11 +58,22 @@ body {
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.container button:hover {
+    background-color: #5c6bc0;
 }
 
 .container button.hidden {
     background-color: transparent;
     border-color: #fff;
+    transition: 0.3s ease-in;
+}
+
+.container button.hidden:hover {
+    background-color: #fff;
+    color: #512da8;
 }
 
 .container form {
@@ -145,6 +156,13 @@ body {
     margin: 0 3px;
     width: 40px;
     height: 40px;
+    text-decoration: none;
+    transition: all 0.6s ease-in-out;
+}
+
+.social-icons a:hover {
+    border-color: #512da8;
+    color: #512da8;
 }
 
 .toggle-container {
